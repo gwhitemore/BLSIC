@@ -16,6 +16,8 @@
     ```powershell
     iex "& { $(irm [https://aka.ms/install-powershell.ps1](https://aka.ms/install-powershell.ps1)) } -UseMSI"
     ```
+NOTE: After discovery there is small bug which throws some red text and your miners even though discovered won't appear. WAIT 10 Sec's for the cycle, and then Press 'R' to refresh view. 
+
 Example running.. 
 <img width="970" height="1064" alt="image" src="https://github.com/user-attachments/assets/4c3a6da3-3645-4242-905e-1481e1066a5e" />
 
