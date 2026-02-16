@@ -1,4 +1,3 @@
-# BLSIC
 # BLSIC: Bitcoin Lottery Swarm Intelligence Console
 **Version:** Beta v0.8.4  
 **Author:** Geoff Whitemore (Chip)  
