@@ -4,8 +4,8 @@
 #  Requires - Version 7.5.4 Powershell
 #  Recommend FONT SIZE 10 or 12 in PowerShell (Adjust through PS settings) in Portrait mode 1080 x 1920  
 #  This release Version: Beta v0.8.4 [cite: 2026-02-15]
-#  Author:  Chip Whitemore
-#  GitHub:  https://github.com/[Your-Username]/[Your-Repo-Name]
+#  Author:  Geoff Whitemore (Chip)
+#  GitHub:  https://github.com/gwhitemore/BLSIC
 
 #  ACKNOWLEDGMENTS:
 #  ----------------------------------------------------------------------------------------
@@ -1454,3 +1454,4 @@ Write-Host $sep -ForegroundColor DarkGray
 
 
 } # --- END OF MAIN WHILE($TRUE) LOOP
+
