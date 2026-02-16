@@ -29,6 +29,9 @@ Note: Using -ExecutionPolicy Bypass only unlocks the script for this specific se
 
 Pro Tip: For the best visual experience and ASCII graph rendering, run the command inside the Windows Terminal app.
 
+After discovery finishes, it may come up with red text on first screen, don't panic, leave for 10 seconds, and then hit that refresh key, it's just to do with the data polulation.
+Your miners will appear after the refresh (R) key is pressed. 
+
 🏗️ 3. Master Architectural Map
 The script is organized into functional logic groups to ensure real-time performance and data persistence.
 
