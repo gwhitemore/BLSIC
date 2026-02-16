@@ -60,11 +60,11 @@ Electricity Rate: Enter your cost per kWh on first launch for accurate ROI track
 Alignment: During the initial hunt, the UI may look scrambled. Press [R]EFRESH once the scan finishes to lock the grid.
 
 🛠️ Troubleshooting & Commands
-[H]UNT: Force a network scan to discover new hardware.
+[H]UNT: Force a network scan to discover new hardware - Possibly - restart the script after for it to show / remove (fix requied)
 
-[A]DD: Manually add a specific miner IP to your swarm manifest.
+[A]DD: Manually add a specific miner IP to your swarm manifest. possbibly - restart the script after for it to show / remove (fix requied)
 
-[D]ELETE: Remove a specific miner IP from your active manifest.
+[X]REMOVE: Remove a specific miner IP from your active manifest. - restart the script after for it to show / remove (fix requied)
 
 [R]EFRESH: Hard-reset the UI. Use after first discovery or window resize.
 
