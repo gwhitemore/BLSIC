@@ -1,13 +1,3 @@
-#******************************************************************************************
-#  PRE-FLIGHT GITHUB CHECKLIST (REMOVE BEFORE FINAL RELEASE)
-#==========================================================================================
-#  1. [ ] Create 'LICENSE' file in GitHub root using the MIT Template.
-#  2. [ ] Create 'README.md' (Include instructions for Portrait 1080x1920 layout).
-#  3. [ ] Verify GitHub URL in the header matches the actual repository link.
-#  4. [ ] Ensure 'swarm_config.json' is added to .gitignore (don't publish your IPs!).
-#  5. [ ] Double-check the Donate BTC Address: 34Q2ySpjcUGnEkxe7JfPxKCh2BYNPgMyYu
-#******************************************************************************************
-
 #  WHAT AM I:
 #  ----------------------------------------------------------------------------------------
 #  BLSIC: BITCOIN LOTTERY SWARM INTELLIGENCE CONSOLE (Windows 11 Edition)
@@ -39,7 +29,7 @@
 #  [Q]UIT          : Safely save the 'Brain' (swarm_config.json) and exit.
 #
 #  BETA NOTES & REGIONAL SETTINGS:
-#  - REGIONAL ORIGIN: Developed in the UK. All financial calculations are in GBP (£).
+#  - REGIONAL ORIGIN: Developed in the UK. All financial calculations are in GBP (Â£).
 #  - METRIC SYSTEM: Probabilities are weighted against the UK National Lottery odds.
 #  - FIRST LAUNCH BUG: Press [R]EFRESH after the first scan to clear the buffer.
 #  - DYNAMIC TARGETING: Calculated automatically as miners are added/removed.
@@ -61,7 +51,7 @@
 #  GROUP A: THE FOUNDATION (Core & Hunt)
 #  - Purpose: Environmental setup, subnet discovery, and hardware initialization.
 #
-#    [0.0 - 0.1] Infrastructure: UTF-8, High-Priority, and UK UI helpers (£/GMT).
+#    [0.0 - 0.1] Infrastructure: UTF-8, High-Priority, and UK UI helpers (Â£/GMT).
 #    [0.2]       The Brain: Loading swarm_config.json and data healing/migration.
 #    [1.0]       The Hunt: Network discovery logic. (Critical: Must use .Name property).
 #    [2.0]       Asset Entry: Captures Purchase Price for the CapEx model (GBP).
@@ -95,7 +85,7 @@
 #    [8.0]       Trend Graph: ASCII history (Capped at 100-ticks).
 #    [9.0]       Swarm Peaks: Tracking session records vs. global ATB performance.
 #    [11.0]      The Ledger: Financial P&L, UK GMT formatting, and Daily GBP yield.
-#    [11.1]      Asset Analytics: Investment summary (CapEx) and Swarm Avg £/TH.
+#    [11.1]      Asset Analytics: Investment summary (CapEx) and Swarm Avg Â£/TH.
 #    [12.0]      Command Input: Interactive key-listener [N,P,L,H,X,A,R,Q].
 #    [13.0]      Persistence: Saves the Brain (UTF-8) and updates the Windows Title Bar.
 #
@@ -127,7 +117,7 @@ if ($IsWindows) {
 # --- UI CONSTANTS & ESCAPE SEQUENCES ---
 $esc = [char]27
 $sep = "-" * 100
-$gbp = "Â£"
+$gbp = "Ã‚Â£"
 
 # Logging Helper
 function Write-Log {
@@ -297,7 +287,7 @@ $global:netDiffRaw   = 146e12  # Fallback difficulty
 $thisProcess  = [System.Diagnostics.Process]::GetCurrentProcess()
 if ($IsWindows) { $thisProcess.PriorityClass = 'High' }
 $sessionStart = $thisProcess.StartTime
-$gbp = [char]163   # £
+$gbp = [char]163   # Â£
 $createNew   = $false
 $isFirstRun  = $false  
 
@@ -445,7 +435,7 @@ function Update-SwarmInventory {
         
         if (-not $existing) {
             Write-Host "`n [NEW ASSET DISCOVERED] $($m.Name) @ $($m.IP)" -ForegroundColor Green
-            Write-Host " >> Enter purchase price (£/$) for ROI tracking: " -NoNewline -ForegroundColor White
+            Write-Host " >> Enter purchase price (Â£/$) for ROI tracking: " -NoNewline -ForegroundColor White
             $entry = Read-Host
             $cleanEntry = $entry -replace '[^0-9.]', ''
             if (!($cleanEntry -as [double])) { $cleanEntry = 0.0 }
@@ -516,7 +506,7 @@ $cycleCounter  = 0
 $fullWidth     = 100
 $sepLine       = "=" * $fullWidth
 $sep           = "-" * $fullWidth
-$gbp           = [char]163  # Prevents encoding shifts for £
+$gbp           = [char]163  # Prevents encoding shifts for Â£
 $currentPage   = 1    
 $minersPerPage = 5    
 
@@ -1461,5 +1451,6 @@ Write-Host $sep -ForegroundColor DarkGray
     # 4. Mandatory Loop Reset
     Write-Host -NoNewline "`r$([char]27)[2K"
     $loopCount++
+
 
 } # --- END OF MAIN WHILE($TRUE) LOOP
