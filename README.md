@@ -16,8 +16,9 @@
     ```powershell
     iex "& { $(irm [https://aka.ms/install-powershell.ps1](https://aka.ms/install-powershell.ps1)) } -UseMSI"
     ```
+Example running.. 
+<img width="970" height="1064" alt="image" src="https://github.com/user-attachments/assets/4c3a6da3-3645-4242-905e-1481e1066a5e" />
 
----
 
 ## 🚀 2. How to Run (The Unlock)
 Windows blocks scripts by default for security. To bypass the "lock" and launch the console in one go, open **PowerShell 7** in your project folder and run:
