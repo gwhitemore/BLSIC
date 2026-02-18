@@ -84,4 +84,4 @@ License: This project is licensed under the BSD 3-Clause License - see the LICEN
 
 Contributions: We welcome help! Please read CONTRIBUTING.md before submitting Pull Requests.
 
-Support the Project: BTC: 34Q2ySpjcUGnEkxe7JfPxKCh2BYNPgMyYu
+Support the Project: BTC: bc1qnpn7svcrra6x6dvfcnxuzg3jdc9q08p8lpvzvy
