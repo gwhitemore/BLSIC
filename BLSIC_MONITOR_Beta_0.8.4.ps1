@@ -15,7 +15,7 @@
 
 #  SUPPORT THE PROJECT:
 #  - If you found this useful, feel free to send me a coffee!
-#  - Donate Bitcoin address: 34Q2ySpjcUGnEkxe7JfPxKCh2BYNPgMyYu
+#  - Donate Bitcoin address: bc1qnpn7svcrra6x6dvfcnxuzg3jdc9q08p8lpvzvy
 #==========================================================================================
 
 #  QUICK START & FUNCTIONS:
@@ -1294,7 +1294,7 @@ Write-Host $sep -ForegroundColor DarkGray
 # ===========================================================================
     Write-Host " [ SUPPORT THE PROJECT ]" -ForegroundColor DarkGray
     Write-Host " If you find the Swarm Monitor useful, consider fueling Chip's coffee:" -ForegroundColor Gray
-    Write-Host " BTC: 34Q2ySpjcUGnEkxe7JfPxKCh2BYNPgMyYu" -ForegroundColor Yellow
+    Write-Host " BTC: bc1qnpn7svcrra6x6dvfcnxuzg3jdc9q08p8lpvzvy" -ForegroundColor Yellow
     Write-Host $sep -ForegroundColor DarkGray
 
 # ===========================================================================
@@ -1454,4 +1454,5 @@ Write-Host $sep -ForegroundColor DarkGray
 
 
 } # --- END OF MAIN WHILE($TRUE) LOOP
+
 
